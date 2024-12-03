@@ -1,10 +1,10 @@
-const invitati = ['Pippo', 'Franco', 'Ciccio', 'Matteo', 'Samuele']
+const invitati = ['pippo', 'franco', 'ciccio', 'matteo', 'samuele']
 
 let guestname
 let isInvited = false
 
 do {
-    guestname = prompt("Inserisci il nome dell'invitato:")
+    guestname = prompt(.toLowerCase("Inserisci il nome dell'invitato:"))
 
 
     for (let i = 0; i < invitati.length; i++) {
