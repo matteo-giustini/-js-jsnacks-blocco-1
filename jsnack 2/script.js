@@ -15,5 +15,4 @@ if (isInvited) {
     } else {
         alert(`${guestname}, tu non puoi entrare!`)
     }
-
 } while (!isInvited)
